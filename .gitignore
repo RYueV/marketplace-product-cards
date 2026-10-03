@@ -1,0 +1,7 @@
+__pycache__/
+.ipynb_checkpoints/
+*.log
+.env
+
+# Технические checkpoint экспериментов
+outputs/experiments/*/cache/*.jsonl
