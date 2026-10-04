@@ -1,0 +1,5 @@
+temperature=0.1, top_p=0.9 | valid_rate=0.650 | avg_attempts=1.48
+temperature=0.2, top_p=0.9 | valid_rate=0.650 | avg_attempts=1.48
+temperature=0.4, top_p=0.9 | valid_rate=0.800 | avg_attempts=1.23
+temperature=0.1, top_p=1.0 | valid_rate=0.625 | avg_attempts=1.52
+temperature=0.2, top_p=1.0 | valid_rate=0.650 | avg_attempts=1.50
