@@ -3,3 +3,17 @@ temperature=0.2, top_p=0.9 | valid_rate=0.650 | avg_attempts=1.48
 temperature=0.4, top_p=0.9 | valid_rate=0.800 | avg_attempts=1.23
 temperature=0.1, top_p=1.0 | valid_rate=0.625 | avg_attempts=1.52
 temperature=0.2, top_p=1.0 | valid_rate=0.650 | avg_attempts=1.50
+# промпт без указания границ
+temperature=0.3, top_p=0.9 | valid_rate=0.600 | avg_attempts=1.62
+temperature=0.4, top_p=0.9 | valid_rate=0.675 | avg_attempts=1.62
+temperature=0.5, top_p=0.9 | valid_rate=0.675 | avg_attempts=1.60
+# промпт с указанием объема
+temperature=0.3, top_p=0.9 | valid_rate=0.575 | avg_attempts=1.68
+temperature=0.4, top_p=0.9 | valid_rate=0.800 | avg_attempts=1.27
+temperature=0.5, top_p=0.9 | valid_rate=0.725 | avg_attempts=1.45
+# обработка длины списка
+temperature=0.4, top_p=0.9 | valid_rate=0.825 | avg_attempts=1.25
+temperature=0.4, top_p=1.0 | valid_rate=0.700 | avg_attempts=1.62
+temperature=0.4, top_p=0.85 | valid_rate=0.725 | avg_attempts=1.48
+# максимум 2 попытки
+temperature=0.4, top_p=0.9 | valid_rate=0.825 | avg_attempts=1.20
