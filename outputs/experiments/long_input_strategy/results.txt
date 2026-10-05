@@ -1,0 +1,2 @@
+long_short_reviews: long cards 6/40; exact duplicates removed 462; after exact dedup 6 still long; similar reviews removed 91; selection required 6; selected reviews 29.0 avg; input 1195.0 avg, 1499 max tokens; time 69.5 ms
+truncation: long cards 6/40; exact duplicates removed 462; after exact dedup 6 still long; similar reviews removed 91; selection required 6; selected reviews 26.3 avg; input 1195.5 avg, 1495 max tokens; time 61.8 ms
