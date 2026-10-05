@@ -1,0 +1,21 @@
+Финальный прогон параметров
+
+Параметры:
+temperature = 0.5
+top_p = 0.9
+top_k = без ограничения
+repetition_penalty = 1.1
+max_tokens = 450
+seed = 43
+max_attempts = 2
+products = 20
+
+Метрики:
+valid_rate = 0.900
+avg_attempts = 1.150
+avg_description_length = 227.33
+input_tokens = 26749
+output_tokens = 4496
+avg_input_tokens = 1337.45
+avg_output_tokens = 224.80
+output_truncated = 1
