@@ -8,7 +8,7 @@
 - модель: `Qwen/Qwen2.5-1.5B-Instruct`
 - dtype:
 - параметры запуска vLLM: `nohup vllm serve Qwen/Qwen2.5-1.5B-Instruct --dtype half --max-model-len 4096 \
-  --gpu-memory-utilization 0.9 --enforce-eager --port 8000 > vllm.log 2>&1 &`
+  --gpu-memory-utilization 0.9 --enforce-eager --enable-prefix-caching --port 8000 > vllm.log 2>&1 &`
 - стратегия длинного входа: удаление дубликатов и отбор отзывов;
 - при браке формата выполняется повторная генерация с указанием модели причины ошибок;
 - максимальное число попыток генерации: 2.
