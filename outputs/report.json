@@ -2,8 +2,13 @@
   "run": {
     "model": "Qwen/Qwen2.5-1.5B-Instruct",
     "concurrency": 48,
-    "params": {"temperature": 0.5, "top_p": 0.9, "top_k": null,
-               "repetition_penalty": 1.1, "max_tokens": 250},
+    "params": {
+        "temperature": 0.5, 
+        "top_p": 0.9, 
+        "top_k": null,
+        "repetition_penalty": 1.1, 
+        "max_tokens": 250
+    },
     "elapsed_sec": 153.1,
     "input_tokens": 471414,
     "output_tokens": 75455,
