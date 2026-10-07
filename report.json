@@ -1,0 +1,36 @@
+{
+  "run": {
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "concurrency": 48,
+    "params": {"temperature": 0.5, "top_p": 0.9, "top_k": null,
+               "repetition_penalty": 1.1, "max_tokens": 250},
+    "elapsed_sec": 153.1,
+    "input_tokens": 471414,
+    "output_tokens": 75455,
+    "n": 300,
+    "avg_latency": 23.0,
+    "avg_attempts": 1.26
+  },
+  "metrics": {
+    "valid": 271,
+    "valid_rate": 0.903,
+    "throughput": 1.96,
+    "time_for_300_sec": 153.14,
+    "cost_vllm_per_1000": 9.22,
+    "errors_by_reason": {
+        "description_length": 8,
+        "wrong_list_length": 18,
+        "output_truncated": 13,
+        "description_sentence_count": 5
+    }
+  },
+  "api_comparison": {
+    "model": "название бесплатной модели",
+    "n": 25,
+    "valid_rate": 0.0,
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "elapsed_sec": 0.0,
+    "cost_per_1000": 0.0
+  }
+}
