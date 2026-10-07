@@ -30,12 +30,12 @@
     }
   },
   "api_comparison": {
-    "model": "название бесплатной модели",
-    "n": 25,
-    "valid_rate": 0.0,
-    "input_tokens": 0,
-    "output_tokens": 0,
-    "elapsed_sec": 0.0,
-    "cost_per_1000": 0.0
+    "model": "apodex/apodex-1.1-mini:free",
+    "n": 20,
+    "valid_rate": 1.0,
+    "input_tokens": 25528,
+    "output_tokens": 4396,
+    "elapsed_sec": 43.9,
+    "cost_per_1000": 38.7
   }
 }

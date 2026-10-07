@@ -42,12 +42,14 @@ async def generate_timed(
         model_name=model_name,
         source_product=product,
         generation_params=generation_params,
-        max_attempts=MAX_ATTEMPTS
+        max_attempts=MAX_ATTEMPTS,
+        diagnostic_dir="outputs/diagnostics"
     )
 
     latency = time.perf_counter() - started
 
     return result, latency
+
 
 
 async def run_concurrent(items, concurrency, generate_one):
@@ -107,12 +109,11 @@ async def run_benchmark(
 
     report = {
         "run": run_stats,
-        "metrics": metrics,
-        "api_comparison": {},
+        "metrics": metrics
     }
 
     save_json(
-        "outputs/report.json",
+        "outputs/local_run_report.json",
         report
     )
 
